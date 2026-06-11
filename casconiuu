@@ -203,13 +203,13 @@
             <div class="flex-1 flex justify-center items-center relative">
                 <div class="absolute w-64 h-64 rounded-full bg-candy-blue/20 blur-2xl"></div>
                 
-                <!-- Polarized Frame featuring ChatGPT Image 07_32_35 9 thg 6, 2026_2.png -->
+                <!-- Polarized Frame featuring avatar1.png -->
                 <div class="relative w-72 h-80 sm:w-80 sm:h-96 rounded-3xl p-4 bg-white border-3 border-candy-pink shadow-[0_12px_0_rgba(255,183,202,0.3)] overflow-visible rotate-2 hover:rotate-0 transition-transform duration-300">
                     <!-- Bow attachment styled to be overlayed perfectly on top edge of the frame -->
                     <div class="absolute -top-6 left-1/2 -translate-x-1/2 z-20 text-5xl transform -rotate-12 animate-bounce">🎀</div>
                     
                     <div class="w-full h-full rounded-2xl bg-gradient-to-tr from-candy-lightBlue to-candy-lightPink overflow-hidden relative border-2 border-dashed border-candy-pink/50">
-                        <img src="ChatGPT Image 07_32_35 9 thg 6, 2026_2.png" alt="Mai Anh Thư" class="w-full h-full object-cover object-center" onerror="this.src='https://placehold.co/400x500/FFB7CA/FFFFFF?text=Mai+Anh+Thu'">
+                        <img src="avatar1.png" alt="Mai Anh Thư" class="w-full h-full object-cover object-center" onerror="this.src='https://placehold.co/400x500/FFB7CA/FFFFFF?text=Mai+Anh+Thu'">
                         <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/60 to-transparent p-4 text-white text-center">
                             <span class="font-cute font-bold tracking-wider text-sm block">MAI ANH THƯ</span>
                             <span class="text-xs text-candy-pink font-bold">@caconitu</span>
