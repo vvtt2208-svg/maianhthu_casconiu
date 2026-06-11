@@ -245,7 +245,7 @@
                     <div class="border-l-4 border-candy-skyBlue pl-3.5 space-y-0.5">
                         <span class="text-[10px] font-bold text-candy-skyBlue tracking-wider uppercase">My Story / 故事</span>
                         <h3 class="text-lg font-cute font-bold text-candy-dark">
-                            <span class="lang-vi-text">Bắt đầu bằng niềm mê mẩn những thước phim 🎬</span>
+                            <span class="lang-vi-text">Bắt đầu bằng niềm đam mê từ những thước phim 🎬</span>
                             <span class="lang-en-text">It all started with a love for video editing! 🎬</span>
                         </h3>
                     </div>
@@ -282,20 +282,30 @@
                 <!-- Right Sidebar Column: Wisdom & Strengths -->
                 <div class="lg:col-span-5 flex flex-col gap-4">
                     
-                    <!-- Colorful Sticky Note Quote -->
-                    <div class="bg-candy-yellow border-3 border-candy-dark/15 p-5 rounded-[2rem] shadow-[0_6px_0_rgba(0,0,0,0.06)] relative transform -rotate-1 hover:rotate-0 transition-transform duration-300">
-                        <div class="absolute -top-2.5 left-1/2 -translate-x-1/2 w-14 h-5 bg-white/70 backdrop-blur-sm rounded-md shadow-sm border border-candy-dark/10"></div>
-                        <div class="space-y-3 pt-1.5">
-                            <span class="text-[10px] font-bold text-candy-dark/60 uppercase tracking-wider block">My Lifesaver Motto / 箴言</span>
-                            <blockquote class="text-base font-cute font-bold text-candy-dark leading-snug">
-                                "No one's gonna save you now, so you better save yourself."
-                            </blockquote>
-                            <p class="text-[11px] text-candy-dark/85 leading-relaxed font-sans font-medium">
-                                <span class="lang-vi-text">Không ai giải quyết vấn đề của bạn tốt hơn chính bạn. Đó là trải nghiệm sâu sắc giúp tớ đứng dậy mạnh mẽ sau mọi khó khăn.</span>
-                                <span class="lang-en-text">No one else can solve your problems but yourself. This core truth is my personal anchor through emotional hardships.</span>
-                            </p>
-                        </div>
-                    </div>
+                  <div class="group relative w-full max-w-sm mx-auto">
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2 z-10 w-16 h-6 bg-black/10 rotate-[-2deg] rounded-sm group-hover:rotate-0 transition-transform duration-500"></div>
+
+          <div class="bg-gradient-to-br from-yellow-100 to-yellow-200 border border-yellow-300 p-6 rounded-2xl shadow-[0_10px_20px_-5px_rgba(0,0,0,0.1)] rotate-[-1deg] group-hover:rotate-0 group-hover:shadow-[0_20px_30px_-10px_rgba(0,0,0,0.15)] transition-all duration-500 ease-out">
+    
+            <div class="space-y-4">
+              <div class="flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-orange-400"></span>
+                <span class="text-[10px] font-bold text-orange-900/60 uppercase tracking-widest">Lifesaver Motto</span>
+              </div>
+
+              <blockquote class="text-[17px] font-bold text-amber-950 leading-tight italic">
+            "No one's gonna save you now, so you better save yourself."
+          </blockquote>
+
+          <div class="w-12 h-0.5 bg-black/5 rounded-full"></div>
+
+          <div class="text-[13px] text-amber-950/80 leading-relaxed font-medium space-y-2">
+        <p class="lang-vi-text">Không ai giải quyết vấn đề của bạn tốt hơn chính bạn. Đó là trải nghiệm sâu sắc giúp tớ đứng dậy mạnh mẽ sau mọi khó khăn.</p>
+        <p class="lang-en-text border-l-2 border-orange-300 pl-3 italic">No one else can solve your problems but yourself. This core truth is my personal anchor.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
                     <!-- Core Values Card -->
                     <div class="bg-white border-3 border-candy-pink/50 p-5 rounded-[2rem] shadow-[0_6px_0_rgba(255,183,202,0.15)] space-y-3.5">
