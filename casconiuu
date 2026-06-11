@@ -588,19 +588,23 @@
         <div class="p-6 space-y-6">
             <div class="space-y-2">
                 <span class="text-xs font-bold text-candy-skyBlue uppercase tracking-wider block"><span class="lang-vi-text">TVC Thẩm Mỹ</span><span class="lang-en-text">Recap TVC Playback</span></span>
-                <a href="https://drive.google.com/file/d/1xXypiCidvyU8j2Cqp5A21B34mmZcg5UI/view?usp=sharing" target="_blank" class="block w-full h-40 rounded-2xl bg-gradient-to-tr from-[#95D1EC] to-candy-blue/30 overflow-hidden relative group border-2 border-candy-blue/40 shadow-inner flex items-center justify-center">
+                <a href="https://drive.google.com/file/d/1xXypiCidvyU8j2Cqp5A21B34mmZcg5UI/view?usp=sharing" target="_blank" 
+                   class="block w-full h-40 rounded-2xl overflow-hidden relative group border-2 border-candy-blue/40 shadow-inner">
                     
-                    <div class="absolute inset-0 bg-cover bg-center filter brightness-90 transition-all duration-300 group-hover:scale-105" style="background-image: url('https://docs.google.com/uc?export=download&id=1Y04No5UNlxPEFkiZzId9mHvKBMdazRsi');"></div>
-                    <div class="absolute inset-0 bg-black/10"></div>
-                    
-                    <div class="relative z-10 w-14 h-14 rounded-full bg-white/90 shadow-lg flex items-center justify-center text-candy-skyBlue text-xl opacity-80 transform group-hover:opacity-100 group-hover:scale-110 transition-all duration-300">
-                        <i class="fa-solid fa-play ml-1"></i>
+                    <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105" 
+                         style="background-image: url('https://docs.google.com/uc?export=download&id=1Y04No5UNlxPEFkiZzId9mHvKBMdazRsi');">
+                    </div>
+                
+                    <div class="absolute inset-0 flex items-center justify-center bg-black/10 group-hover:bg-black/20 transition-all duration-300">
+                        <div class="w-14 h-14 rounded-full bg-white/90 shadow-lg flex items-center justify-center text-candy-skyBlue text-xl transform group-hover:scale-110 transition-transform duration-300">
+                            <i class="fa-solid fa-play ml-1"></i>
+                        </div>
                     </div>
                     
-                    <div class="absolute top-2 right-2 bg-[#25D366] text-white text-[9px] px-2 py-0.5 rounded-full font-extrabold flex items-center gap-1">
+                    <div class="absolute top-2 right-2 bg-[#25D366] text-white text-[9px] px-2 py-0.5 rounded-full font-extrabold flex items-center gap-1 z-10">
                         <i class="fa-solid fa-cloud"></i> Google Drive TVC
                     </div>
-                    <div class="absolute bottom-2 left-2 bg-black/60 text-white text-[10px] px-2.5 py-1 rounded-md font-bold max-w-[90%] truncate">
+                    <div class="absolute bottom-2 left-2 bg-black/60 text-white text-[10px] px-2.5 py-1 rounded-md font-bold max-w-[90%] truncate z-10">
                         AGGA Seminar TVC Recaps
                     </div>
                 </a>
