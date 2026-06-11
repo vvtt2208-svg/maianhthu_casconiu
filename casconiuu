@@ -523,18 +523,32 @@
 
         <div class="p-6 space-y-6">
             <div class="space-y-2">
-                <span class="text-xs font-bold text-candy-hotPink uppercase tracking-wider block"><span class="lang-vi-text">Hình ảnh tại NamHa1720 </span><span class="lang-en-text">High School Snaps (Swipe / Toggle)</span></span>
-                <div class="relative w-full h-48 rounded-2xl overflow-hidden border-2 border-candy-pink/30 group">
-                    <div id="carousel-track" class="flex w-full h-full transition-transform duration-500">
-                        <div class="w-full h-full flex-shrink-0">
-                            <img src="https://docs.google.com/uc?export=download&id=1KIaBoBC-L-P9J8X6imAq-b4lepOt5ZKP" alt="Học sinh Namha" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/400x250/FFB7CA/FFFFFF?text=Namha+1'">
+                                  <div class="relative w-full max-w-md mx-auto overflow-hidden rounded-2xl shadow-lg">
+                        <div id="carousel-track" class="flex transition-transform duration-500 ease-in-out">
+                            <div class="w-full flex-shrink-0"><img src="6e10e460-ea40-42bb-be48-931e85bbb6f2.jfif" class="w-full h-auto object-cover" onerror="this.src='https://placehold.co/600x400?text=Ảnh+1'"></div>
+                            <div class="w-full flex-shrink-0"><img src="126903581_403783260763599_2114747810882735866_n.jpg" class="w-full h-auto object-cover" onerror="this.src='https://placehold.co/600x400?text=Ảnh+2'"></div>
+                            <div class="w-full flex-shrink-0"><img src="184857527_2989061918044225_6771750940191470957_n.jpg" class="w-full h-auto object-cover" onerror="this.src='https://placehold.co/600x400?text=Ảnh+3'"></div>
+                            <div class="w-full flex-shrink-0"><img src="278947072_695775784807582_3476424795226879734_n.jpg" class="w-full h-auto object-cover" onerror="this.src='https://placehold.co/600x400?text=Ảnh+4'"></div>
+                            <div class="w-full flex-shrink-0"><img src="245436011_556375215441654_5878094293071710708_n.jpg" class="w-full h-auto object-cover" onerror="this.src='https://placehold.co/600x400?text=Ảnh+5'"></div>
                         </div>
-                        <div class="w-full h-full flex-shrink-0">
-                            <img src="https://docs.google.com/uc?export=download&id=138gEDyghxAvjnf7amR6MfWWPiOkhpTpD" alt="Tập thể Namha" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/400x250/FFB7CA/FFFFFF?text=Namha+2'">
-                        </div>
+                    
+                        <button onclick="moveCarousel(-1)" class="absolute left-4 top-1/2 -translate-y-1/2 p-2 bg-black/30 hover:bg-black/50 text-white rounded-full backdrop-blur-sm transition">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+                        </button>
+                        <button onclick="moveCarousel(1)" class="absolute right-4 top-1/2 -translate-y-1/2 p-2 bg-black/30 hover:bg-black/50 text-white rounded-full backdrop-blur-sm transition">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                        </button>
                     </div>
-                    <button onclick="toggleCarousel(0)" class="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/85 text-candy-hotPink flex items-center justify-center shadow focus:outline-none hover:bg-white"><i class="fa-solid fa-chevron-left text-xs"></i></button>
-                    <button onclick="toggleCarousel(1)" class="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/85 text-candy-hotPink flex items-center justify-center shadow focus:outline-none hover:bg-white"><i class="fa-solid fa-chevron-right text-xs"></i></button>
+                    
+                    <script>
+                        let currentIndex = 0;
+                        function moveCarousel(direction) {
+                            const track = document.getElementById('carousel-track');
+                            const totalSlides = track.children.length;
+                            currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
+                            track.style.transform = `translateX(-${currentIndex * 100}%)`;
+                        }
+                    </script>
                 </div>
             </div>
 
