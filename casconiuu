@@ -208,7 +208,7 @@
                     <div class="absolute -top-6 left-1/2 -translate-x-1/2 z-20 text-4xl">🎀</div>
                     
                     <div class="w-full aspect-[3/4] bg-gray-200 overflow-hidden shadow-inner">
-                        <img src="avatar1.png" alt="Mai Anh Thư" class="w-full h-full object-cover object-top transition-transform hover:scale-105 duration-500">
+                        <img src="./avatar1.png" alt="Mai Anh Thư" class="w-full h-full object-cover object-top transition-transform hover:scale-105 duration-500">
                     </div>
                 
                     <div class="mt-4 text-center">
